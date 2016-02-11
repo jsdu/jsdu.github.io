@@ -14,7 +14,7 @@
 <body>
 
 	<div id="wrapper">
-
+		<canvas id="demo-canvas"></canvas>
 		<header>
 			<hgroup>
 				<h1><a href="/">Jason Du</a></h1>
@@ -206,18 +206,24 @@
 
 	</div>
 
-<script src="better-simple-slideshow.min.js"></script>
-<script>
-var opts = {
-    auto : false,
-    fullScreen : false,
-    swipe : false
-};
-makeBSS('.num1', opts);
-makeBSS('.num2', opts);
-makeBSS('.num3', opts);
-makeBSS('.num4', opts);
-</script>
 
-</body>
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+
+	<script src="better-simple-slideshow.min.js"></script>
+	<script>
+	var opts = {
+    	auto : false,
+    	fullScreen : false,
+    	swipe : false
+	};
+	makeBSS('.num1', opts);
+	makeBSS('.num2', opts);
+	makeBSS('.num3', opts);
+	makeBSS('.num4', opts);
+	</script>
+
+	</body>
 </html>
