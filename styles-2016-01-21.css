@@ -488,6 +488,23 @@ hr {
 	line-height: 1.5em;
 }
 
+.appStore {
+    background-color: #2196F3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 0 0 20px 0;
+}
 
+.appStore:hover {
+    background-color: #1E88E5; /* Green */
+    color: white;
+}
 
 
