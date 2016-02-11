@@ -280,6 +280,30 @@ blockquote {
 	margin: 0;
 }
 
+#hacks article header
+{
+	border-bottom: 1px solid #999;
+}
+
+#hacks article header h3 {
+	padding: 8px 0 0 0px;
+	margin: 0;
+	text-align: left;
+	font-family: tahoma, sans-serif;
+}
+
+#hacks article header p {
+	padding: 0 0 5px 0px;
+	margin: -4px 0 0 0;
+	font-size: 0.9em;
+	color: #666;
+	text-align: left;
+}
+
+#hacks img {
+	margin: 0;
+}
+
 
 #app-wallabee {
 	background: url('https://bendodson.s3.amazonaws.com/apps/icons/wallabee-57.png') left center no-repeat;
@@ -365,19 +389,18 @@ blockquote {
 	background: url('https://bendodson.s3.amazonaws.com/apps/icons/oxford-57.png') left center no-repeat;
 }
 #app-chippd {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/chippd-57.png') left center no-repeat;
 }
-#app-nc {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/nc-60.png') left center no-repeat;
+#app-tictactoe {
+	background: url('http://i.imgur.com/UIgtw2p.png') left center no-repeat;
 }
 #app-pocketrocket {
 	background: url('https://bendodson.s3.amazonaws.com/apps/icons/pocketrocket-57.png') left center no-repeat;
 }
-#app-calmradio {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/calmradio-60.png') left center no-repeat;
+#app-sepr {
+	background: url('http://i.imgur.com/maMUCwd.png') left center no-repeat;
 }
-#app-munchkinreport {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/munchkinreport-60.png') left center no-repeat;
+#app-personalityTest {
+	background: url('http://i.imgur.com/aFa4p3H.png') left center no-repeat;
 }
 #app-musictracker {
 	background: url('https://bendodson.s3.amazonaws.com/apps/icons/musictracker-60.png') left center no-repeat;
