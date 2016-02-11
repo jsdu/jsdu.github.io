@@ -9,7 +9,7 @@
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = document.documentElement.scrollHeight;
 
         target = {x: width/2, y: height/2};
 
@@ -90,8 +90,7 @@
     }
 
     function scrollCheck() {
-        if(document.body.scrollTop > height) animateHeader = false;
-        else animateHeader = true;
+        animateHeader = true;
     }
 
     function resize() {
