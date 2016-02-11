@@ -22,7 +22,7 @@ a:focus {
 img {
 	display: block;
 	margin: 0 auto;
-	padding: 30px 0;
+	padding: 0;
 }
 
 a < img {
@@ -137,11 +137,11 @@ nav ul li a {
 
 
 article {
-	padding: 70px 0 0 0;
+	padding: 0px 0 0 0;
 }
 
 article:first-child {
-	padding-top: 40px;
+	padding-top: 0px;
 	border-top: none;
 }
 
@@ -271,7 +271,7 @@ blockquote {
 }
 
 #apps article header h3 {
-	padding: 8px 0 0 74px;
+	padding: 0px 0 0 74px;
 	margin: 0;
 	text-align: left;
 	font-family: tahoma, sans-serif;
