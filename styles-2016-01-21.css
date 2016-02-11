@@ -493,7 +493,7 @@ hr {
     border: none;
     color: white;
     padding: 15px 32px;
-    width: 80px;
+    width: 100px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -512,7 +512,7 @@ hr {
     background-color: #455A64; /* Green */
     border: none;
     color: white;
-    width: 80px;
+    width: 100px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -532,7 +532,7 @@ hr {
     background-color: #009688; /* Green */
     border: none;
     color: white;
-    width: 80px;
+    width: 100px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -547,3 +547,24 @@ hr {
     background-color: #00796B; /* Green */
     color: white;
 }
+
+.hackathon {
+    background-color: #F44336; /* Green */
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 0 0 20px 0;
+}
+
+.hackathon:hover {
+    background-color: #D32F2F; /* Green */
+    color: white;
+}
+
