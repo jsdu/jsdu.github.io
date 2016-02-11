@@ -175,8 +175,25 @@ article header time a {
 article div {
 	width: 800px;
 	margin: 0 auto;
-	padding-bottom: 50px;
-	border-bottom: 1px solid black;
+}
+
+#slide {
+	width: 350px;
+	margin: 20px 20px 0 0;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+#parent {
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 0px;
+	border-bottom: 0px solid black;
+}
+
+#wide {
+	flex:1;
 }
 
 article div.footnotes {
@@ -470,3 +487,7 @@ hr {
 	font-size: 0.8em;
 	line-height: 1.5em;
 }
+
+
+
+

@@ -6,7 +6,9 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link rel="alternate" type="application/rss+xml" title="The Blog of Jason Du - iPhone Developer" href="https://jasondu.me/" />
 	<link rel="stylesheet" href="styles-2016-01-21.css" />
+	<link rel="stylesheet" href="simple-slideshow-styles.css">
 	<link rel="stylesheet" href="highlight.css" />
+
 	<title>About Jason Du, iOS Developer</title>
 </head>
 <body>
@@ -35,10 +37,29 @@
 			<h3>Sepr - Real Estate Prices</h3>
 			<p>Find sold prices of homes in Ontario</p>
 		</header>
-		<img src="http://i.imgur.com/UY5sByi.png" id="sepr-image">
-
-		<p>Placeholder description asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf </p>
-		<p><a href="https://itunes.apple.com/us/app/calm-radio-online-streaming/id918425515?ls=1&amp;mt=8"><img src="https://bendodson.s3.amazonaws.com/app-store.png" alt="Available on the App Store"></a></p>
+		<div id="parent">
+			<div class="bss-slides num1" tabindex="1" id="slide">
+   				<figure>
+      				<img src="http://i.imgur.com/UY5sByi.png" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="http://i.imgur.com/UY5sByi.png" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="http://i.imgur.com/UY5sByi.png" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="http://i.imgur.com/UY5sByi.png" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="http://i.imgur.com/UY5sByi.png" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Placeholder description asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdfasdf asdf asdf asdfas dfa sdfa sdfasd fasdf asdf asdf asdf </p>
+			</div>
+		</div>
+		<a href="https://itunes.apple.com/us/app/sepr-real-estate-prices/id1080434412?ls=1&amp;mt=8" class="appStore">App Store</a>
 	</article>
 
 	<article>
@@ -66,7 +87,7 @@
 	<section id = "hacks">
 	<article>
 		<header>
-			<h3>OneWord</h3>
+			<h3>One Word</h3>
 			<p>Share secrets via unique QR code based gifts</p>
 		</header>
 		<img src="https://bendodson.s3.amazonaws.com/weblog/2015/chippd-app.jpg" width="940" height="534" alt="Chipp'd for iPhone">
@@ -87,7 +108,7 @@
 
 	<article>
 		<header>
-			<h3>LatexMyNotes</h3>
+			<h3>Latex My Notes</h3>
 			<p>Help monitor the British bee population</p>
 		</header>
 		<img src="https://bendodson.s3.amazonaws.com/weblog/2015/gbbc.jpg" width="940" height="705" alt="Great British Bee Count for iPhone">
@@ -126,6 +147,15 @@
 
 	</div>
 
+<script src="better-simple-slideshow.min.js"></script>
+<script>
+var opts = {
+    auto : false,
+    fullScreen : false,
+    swipe : false
+};
+makeBSS('.num1', opts);
+</script>
 
 </body>
 </html>
