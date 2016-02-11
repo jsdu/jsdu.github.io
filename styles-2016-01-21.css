@@ -256,6 +256,15 @@ blockquote {
 	margin: 0 0 0 40px;
 }
 
+#sepr-image {
+	width: 350px;
+	height: 546px;
+	border: 1px solid #999;
+	padding: 3px;
+	float: left;
+	margin: 20px 20px 0px 0px;
+}
+
 #apps article header
 {
 	border-bottom: 1px solid #999;
@@ -277,7 +286,6 @@ blockquote {
 }
 
 #apps img {
-	margin: 0;
 }
 
 #hacks article header
