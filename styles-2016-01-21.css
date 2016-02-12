@@ -15,11 +15,12 @@ body {
 	line-height: 1.7em;
 	font-family: 'PT Sans Caption', sans-serif;
 	display: block;
-	z-index: 3;
+	background-image: url("background.jpg");
+	background-size: cover;
 }
 
 a {
-	color: black;
+	color: #FFFFFF;
 	text-decoration: none;
 	border-bottom: 1px solid #999;
 }
@@ -90,11 +91,11 @@ header {
 
 header h1,
 header h2 {
-	color: #000;
+	color: #FFFFFF;
 }
 
 header h1 a {
-	color: #000;
+	color: #FFFFFF;
 	border-bottom: none;	
 }
 
@@ -585,9 +586,6 @@ hr {
     left:0;
     z-index: -1;
     height = 100vh;
-    background-image: url("background.png");
+    background-image: url("header.jpg");
 	background-size: cover;
 }
-
-canvas { display:block; } /* To remove the scrollbars */
-

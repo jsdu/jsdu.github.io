@@ -9,7 +9,7 @@
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = 215;
 
         target = {x: width/2, y: height/2};
 
@@ -90,12 +90,13 @@
     }
 
     function scrollCheck() {
-        animateHeader = true;
+        if(document.body.scrollTop > height) animateHeader = false;
+        else animateHeader = true;   
     }
 
     function resize() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = 215;
         canvas.width = width;
         canvas.height = height;
     }
