@@ -15,9 +15,7 @@ body {
 	line-height: 1.7em;
 	font-family: 'PT Sans Caption', sans-serif;
 	display: block;
-	background-image: url("background.png");
-	background-size: cover;
-	z-index: 2;
+	z-index: 3;
 }
 
 a {
@@ -587,6 +585,8 @@ hr {
     left:0;
     z-index: -1;
     height = 100vh;
+    background-image: url("background.png");
+	background-size: cover;
 }
 
 canvas { display:block; } /* To remove the scrollbars */
