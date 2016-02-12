@@ -15,9 +15,11 @@ body {
 	line-height: 1.7em;
 	font-family: 'PT Sans Caption', sans-serif;
 	display: block;
-	background-image: url("background.jpg");
-	background-repeat: no-repeat;
-	background-size:100% auto;
+	background: url("background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 a {
