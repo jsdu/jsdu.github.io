@@ -16,7 +16,8 @@ body {
 	font-family: 'PT Sans Caption', sans-serif;
 	display: block;
 	background-image: url("background.jpg");
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size:100% auto;
 }
 
 a {
@@ -353,106 +354,14 @@ blockquote {
 	margin: 0;
 }
 
-
-#app-wallabee {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/wallabee-57.png') left center no-repeat;
-}
-
-
-#app-highlights {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/highlights-57.png') left center no-repeat;
-}
-
-#app-security {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/security-57.png') left center no-repeat;
-}
-
-#app-wallabeetravel {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/wallabee-travel-57.png') left center no-repeat;
-}
-
-#app-metaldetector {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/metal-detector-57.png') left center no-repeat;
-}
-
-#app-expensemagic {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/expensemagic-57.png') left center no-repeat;
-}
-
-#app-horsetracker {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/horsetracker-57.png') left center no-repeat;
-}
-
-#app-mpd {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/mpd-57.png') left center no-repeat;
-}
-
-#app-nectar {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/nectar-57.png') left center no-repeat;
-}
-
-#app-vichy {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/vichy-57.png') left center no-repeat;
-}
-
-#app-socialbeacon {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/social-beacon-57.png') left center no-repeat;
-}
-
-#app-textometer {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/textometer-57.png') left center no-repeat;
-}
-#app-msq {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/msq-57.png') left center no-repeat;
-}
-#app-meatmap {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/meatmap-57.png') left center no-repeat;
-}
-
-#app-craftsman {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/craftsman-57.png') left center no-repeat;
-}
-
-#app-kontent {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/kontent-57.png') left center no-repeat;
-}
-#app-islandbreak {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/islandbreak-57.png') left center no-repeat;
-}
-#app-blindbags {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/blindbags-57.png') left center no-repeat;
-}
-#app-loly {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/loly-57.png') left center no-repeat;
-}
-#app-gbbc {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/gbbc-57.png') left center no-repeat;
-}
-#app-glenfiddich {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/glenfiddich-57.png') left center no-repeat;
-}
-#app-brapp {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/brapp-57.png') left center no-repeat;
-}
-#app-oxford {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/oxford-57.png') left center no-repeat;
-}
-#app-chippd {
-}
 #app-tictactoe {
 	background: url('http://i.imgur.com/UIgtw2p.png') left center no-repeat;
-}
-#app-pocketrocket {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/pocketrocket-57.png') left center no-repeat;
 }
 #app-sepr {
 	background: url('http://i.imgur.com/maMUCwd.png') left center no-repeat;
 }
 #app-personalityTest {
 	background: url('http://i.imgur.com/aFa4p3H.png') left center no-repeat;
-}
-#app-musictracker {
-	background: url('https://bendodson.s3.amazonaws.com/apps/icons/musictracker-60.png') left center no-repeat;
 }
 
 #code article header
@@ -490,27 +399,10 @@ blockquote {
 	border-bottom: none;
 }
 
-#itunes-artwork-finder div {
-	border-bottom: none;
-}
-
 hr {
 	display: none;
 }
 
-#musictracker {
-	padding: 20px 40px 20px 100px;
-	background: #e0e0e0 url('https://bendodson.s3.amazonaws.com/apps/icons/musictracker-60.png') 20px center no-repeat;
-	border-radius: 2em;
-	width: 660px;
-}
-
-#musictracker p {
-	padding: 0;
-	margin: 0;
-	font-size: 0.8em;
-	line-height: 1.5em;
-}
 
 .appStore {
     background-color: #2196F3; /* Green */
