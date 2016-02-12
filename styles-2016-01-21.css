@@ -16,7 +16,7 @@ body {
 	font-family: 'PT Sans Caption', sans-serif;
 	display: block;
 	background-image: url("background.jpg");
-	background-size: cover;
+	background-size:cover;
 }
 
 a {
