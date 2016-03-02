@@ -358,13 +358,13 @@ blockquote {
 }
 
 #app-tictactoe {
-	background: url('http://i.imgur.com/UIgtw2p.png') left center no-repeat;
+	background: url('https://s3.amazonaws.com/jasondubucket/ticTacToeIcon') left center no-repeat;
 }
 #app-sepr {
-	background: url('http://i.imgur.com/maMUCwd.png') left center no-repeat;
+	background: url('https://s3.amazonaws.com/jasondubucket/SeprIcon') left center no-repeat;
 }
 #app-personalityTest {
-	background: url('http://i.imgur.com/aFa4p3H.png') left center no-repeat;
+	background: url('https://s3.amazonaws.com/jasondubucket/16personalityIcon') left center no-repeat;
 }
 
 #code article header
