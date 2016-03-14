@@ -357,6 +357,10 @@ blockquote {
 	margin: 0;
 }
 
+#app-pic4Change {
+	background: url('https://s3.amazonaws.com/jasondubucket/pic4ChangeIcon') left center no-repeat;
+}
+
 #app-tictactoe {
 	background: url('https://s3.amazonaws.com/jasondubucket/ticTacToeIcon') left center no-repeat;
 }
