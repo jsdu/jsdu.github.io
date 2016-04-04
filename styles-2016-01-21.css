@@ -364,11 +364,17 @@ blockquote {
 #app-tictactoe {
 	background: url('https://s3.amazonaws.com/jasondubucket/ticTacToeIcon') left center no-repeat;
 }
+
 #app-sepr {
 	background: url('https://s3.amazonaws.com/jasondubucket/SeprIcon') left center no-repeat;
 }
+
 #app-personalityTest {
 	background: url('https://s3.amazonaws.com/jasondubucket/16personalityIcon') left center no-repeat;
+}
+
+#app-weatherEats {
+	background: url('https://s3.amazonaws.com/jasondubucket/weatherEatsIcon') left center no-repeat;
 }
 
 #code article header
