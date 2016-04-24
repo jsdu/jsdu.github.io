@@ -377,6 +377,10 @@ blockquote {
 	background: url('https://s3.amazonaws.com/jasondubucket/weatherEatsIcon') left center no-repeat;
 }
 
+#app-mazu {
+	background: url('https://s3.amazonaws.com/jasondubucket/mazuIcon') left center no-repeat;
+}
+
 #code article header
 {
 	border-bottom: 1px solid #999;
