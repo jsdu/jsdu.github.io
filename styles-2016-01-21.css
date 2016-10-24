@@ -381,6 +381,10 @@ blockquote {
 	background: url('https://s3.amazonaws.com/jasondubucket/MazuIcon') left center no-repeat;
 }
 
+#app-eats {
+	background: url('https://s3.amazonaws.com/jasondubucket/EatsIcon') left center no-repeat;
+}
+
 #code article header
 {
 	border-bottom: 1px solid #999;
