@@ -5,51 +5,68 @@
 	
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link rel="alternate" type="application/rss+xml" title="The Blog of Jason Du - iPhone Developer" href="https://jasondu.me/" />
-	<link rel="stylesheet" href="styles-2016-01-21.css" />
-	<link rel="stylesheet" href="highlight.css" />
+	<link rel="stylesheet" href="css/general.css" />
+	<link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.css">
+
 	<title>Jason Du &mdash; About</title>
 </head>
-<body>
-
-	<div id="wrapper">
-		<canvas id="demo-canvas"></canvas>
-		<header>
-			<hgroup>
-				<h1>Jason Du</h1>
-				<h2>iOS developer, Snowboarder, Gamer</h2>
-			</hgroup>
-			<nav>
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="about">About</a></li>
-					<li><a href="projects">Projects</a></li>
-					<li><a href="resume.pdf">Resume</a></li>
-					<li><a href="http://github.com/jsdu">Github</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<section id="about">
-
+<body class="body">
+	<header class="headerBar">
+		<div class="statusBar">
+			<p class="leftAlign">Browser</p>
+			<p class="centerAlign">12:02 PM</p>
+			<p class="rightAlign">100%</p>
+		</div>
+		<div class="headerContent">
+			<div class="aboutContent">
+				<h2>JASON DU</h2>
+				<h1>About</h1>
+			</div>
+			<img class="portfolioIcon" src="assets/Icon.png" alt="Icon Image">
+		</div>
+		<nav class="bottomTabBar">
+			<ul class="navBar">
+				<li>
+					<div class="tabContainer">
+						<i class="fas fa-home current"></i>
+						<a class="current" href="about">About</a>
+					</div>
+				</li>
+				<li>
+					<div class="tabContainer">
+						<i class="fas fa-rocket"></i>
+						<a href="projects">Projects</a>
+					</div>
+				</li>
+				<li>
+					<div class="tabContainer">
+						<i class="fas fa-file-user"></i>
+						<a href="resume.pdf">Resume</a>
+					</div>
+				</li>
+				<li>
+					<div class="tabContainer">
+						<i class="fab fa-github"></i>					
+						<a href="https://github.com/jsdu">Github</a>
+					</div>
+				</li>
+				<li>
+					<div class="tabContainer">
+						<i class="fas fa-comments"></i>						
+						<a href="contact">Contact</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="about">
 	<article>
-
 		<p>My name is Jason Du. I live in Toronto and study Math and Computer Science at The University of Waterloo. I am passionate about programming and I specialize in creating beautiful, professional apps for iOS. I program mainly in Swift but I sometimes dabble in Objective-C. When I am not programming, you can find me going on walks, playing the piano, or gaming</a>.</p>
-
 		<h2>How I got started</h2>
 		<img src="http://i.imgur.com/dbE0rTg.jpg" alt="portrait" id="about-image">
-		<p> I first started programming in highschool when I took a course on computer science in grade 10. However, I did not discover the joys of programming until I went to my first Hackathon. I went to Wearhacks in Montreal and had no idea what I was going to build going in. I found a team that was interested in creating an app on the Muse that alerts the driver if they are falling asleep. We turned that idea into a reality and won the best Muse hack. From then on, I was hooked. I attended several other hackathons including Wearhacks Toronto, Hack the North, MHacks, and ConUHacks. You can find my projects for these hackathons <a id="link" href="projects">here</a>. Besides attending Hackathons, I enjoy watching WWDC keynotes and building my own apps from what I have watched.</p>
-
-			
+		<p> I first started programming in highschool when I took a course on computer science in grade 10. However, I did not discover the joys of programming until I went to my first Hackathon. I went to Wearhacks in Montreal and had no idea what I was going to build going in. I found a team that was interested in creating an app on the Muse that alerts the driver if they are falling asleep. We turned that idea into a reality and won the best Muse hack. From then on, I was hooked. I attended several other hackathons including Wearhacks Toronto, Hack the North, MHacks, and ConUHacks. You can find my projects for these hackathons <a id="link" href="projects">here</a>. Besides attending Hackathons, I enjoy watching WWDC keynotes and building my own apps from what I have watched.</p>	
 	</article>
 	
-</section>
-
-
-	</div>
-
-	<script src="js/TweenLite.min.js"></script>
-	<script src="js/EasePack.min.js"></script>
-	<script src="js/rAF.js"></script>
-	<script src="js/demo-1.js"></script>
+	</section>
 </body>
 </html>
