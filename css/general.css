@@ -69,8 +69,21 @@
   line-height: 14px;
 }
 
+.statusBar .statusBarContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.statusBar i {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 13px;
+}
+
 .statusBar p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
 }
 
 .statusBar .centerAlign {
