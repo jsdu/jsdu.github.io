@@ -1,32 +1,138 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="google-site-verification" content="9diFGrzS2QnOB84_ODBN5F8PMo_QbWr1Y3vHfmSILuM" />
-		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
-		<link rel="alternate" type="application/rss+xml" title="The Blog of Jason Du - iPhone Developer" href="https://jasondu.me" />
-		<link rel="stylesheet" href="styles-2016-01-21.css" />
-		<link rel="stylesheet" href="highlight.css" />
-		<title>Jason Du</title>
-	</head>
-	<body id="homeBody">
-		<div id="wrapper">
-			<header>
-				<hgroup>
-					<h1>Jason Du</h1>
-					<h2>iOS developer, Snowboarder, Gamer</h2>
-				</hgroup>
-				<nav>
-					<ul>
-						<li><a href="about">About</a></li>
-						<li><a href="projects">Projects</a></li>
-						<li><a href="resume.pdf">Resume</a></li>
-						<li><a href="https://github.com/jsdu">Github</a></li>
-					</ul>
-					<div class="divider"></div>
-				</nav>
-			</header>
+<head>
+	<meta charset="utf-8">
+	
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+	<link rel="alternate" type="application/rss+xml" title="Jason Du's Portfolio" href="https://dujason.com/" />
+	<link rel="stylesheet" href="css/general.css" />
+	<link rel="stylesheet" href="css/about.css" />
+	<link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.css">
 
+	<title>Jason Du &mdash; About</title>
+</head>
+<body class="body">
+	<header class="headerBar">
+		<div class="statusBar">
+			<div class="statusBarLeftContent">
+				<p>Browser</p>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<p id="dateTime" class="centerAlign"></p>
+			<div class="statusBarRightContent">
+				<p>100%</p>
+				<i class="fas fa-battery-full"></i>
+			</div>
 		</div>
-	</body>
+		<div class="headerContent">
+			<div id="aboutContent" class="aboutContent">
+				<h2 id="name">JASON DU</h2>
+				<h1 id="about" class="about">About</h1>
+			</div>
+			<img id="portfolioIcon" class="portfolioIcon" src="assets/Icon.png" alt="Icon Image">
+		</div>
+	</header>
+	<nav class="bottomTabBar">
+		<ul class="navBar">
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-home current"></i>
+					<a class="current" href="/">About</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-rocket"></i>
+					<a href="projects">Projects</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-file-user"></i>
+					<a href="resume.pdf">Resume</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fab fa-github"></i>					
+					<a href="https://github.com/jsdu">Github</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-comments"></i>						
+					<a href="contact">Contact</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<section id="about" class="aboutContainer">
+		<div class="row ">
+			<div class="container firstContainer">
+				<div>
+
+				</div>
+				<video autoplay muted loop src="assets/Idle.mp4"></video>
+			</div>
+			<div class="container secondContainer">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="container thirdContainer">
+
+			</div>
+			<div class="container fourthContainer">
+
+			</div>
+			<div class="container fifthContainer">
+
+			</div>
+		</div>
+	</section>
+	<script>
+		// When the user scrolls down 50px from the top of the document, resize the header's font size
+		window.onscroll = function() {scrollFunction()};
+
+		function getClockTime() {
+			var dt = new Date();
+			document.getElementById("dateTime").innerHTML = dt.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});;
+		}
+		getClockTime()
+		// Update clock every minute
+		setInterval(getClockTime, 60000);
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			document.getElementById("portfolioIcon").style.width = "30px";
+			document.getElementById("portfolioIcon").style.height = "30px";
+			document.getElementById("portfolioIcon").style.marginBottom = "auto";
+
+			document.getElementById("aboutContent").style.flexDirection = "row";
+
+			document.getElementById("about").style.margin = "auto";
+			document.getElementById("about").style.fontWeight = "600";
+			document.getElementById("about").style.fontSize = "15px";
+			document.getElementById("about").style.letterSpacing = "-0.41px";
+			document.getElementById("about").style.lineHeight = "22px";
+
+			document.getElementById("name").style.marginTop = "10px";
+		  } else {
+			document.getElementById("portfolioIcon").style.width = "63px";
+			document.getElementById("portfolioIcon").style.height = "63px";
+			document.getElementById("portfolioIcon").style.marginBottom = "0";
+
+			document.getElementById("aboutContent").style.flexDirection = "column";
+
+			document.getElementById("about").style.margin = "0";
+			document.getElementById("about").style.fontWeight = "bold";
+			document.getElementById("about").style.fontSize = "34px";
+			document.getElementById("about").style.letterSpacing = "0.37px";
+			document.getElementById("about").style.lineHeight = "41px";
+			
+			document.getElementById("name").style.marginTop = "30px";
+		  }
+		}
+	</script>
+</body>
 </html>
