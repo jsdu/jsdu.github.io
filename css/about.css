@@ -1,9 +1,10 @@
 .aboutContainer {
-    margin-top: 150px;
+    margin-top: 140px;
+    margin-bottom: 50px;
 }
 
 .container {
-    margin: 20px;
+    margin: 30px;
     padding: 8px;
     height: 300px;
     background-color: cadetblue;
@@ -12,8 +13,8 @@
 .row {
     display: flex;
     flex-direction: row;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .firstContainer {
