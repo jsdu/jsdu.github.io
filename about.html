@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link rel="alternate" type="application/rss+xml" title="The Blog of Jason Du - iPhone Developer" href="https://jasondu.me/" />
 	<link rel="stylesheet" href="css/general.css" />
+	<link rel="stylesheet" href="css/about.css" />
 	<link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.css">
 
 	<title>Jason Du &mdash; About</title>
@@ -13,66 +14,122 @@
 <body class="body">
 	<header class="headerBar">
 		<div class="statusBar">
-			<div class="statusBarContent">
+			<div class="statusBarLeftContent">
 				<p>Browser</p>
 				<i class="fas fa-wifi"></i>
 			</div>
-			<p class="centerAlign">12:02 PM</p>
-			<div class="statusBarContent">
+			<p id="dateTime" class="centerAlign"></p>
+			<div class="statusBarRightContent">
 				<p>100%</p>
 				<i class="fas fa-battery-full"></i>
 			</div>
 		</div>
 		<div class="headerContent">
-			<div class="aboutContent">
-				<h2>JASON DU</h2>
-				<h1>About</h1>
+			<div id="aboutContent" class="aboutContent">
+				<h2 id="name">JASON DU</h2>
+				<h1 id="about" class="about">About</h1>
 			</div>
-			<img class="portfolioIcon" src="assets/Icon.png" alt="Icon Image">
+			<img id="portfolioIcon" class="portfolioIcon" src="assets/Icon.png" alt="Icon Image">
 		</div>
-		<nav class="bottomTabBar">
-			<ul class="navBar">
-				<li>
-					<div class="tabContainer">
-						<i class="fas fa-home current"></i>
-						<a class="current" href="about">About</a>
-					</div>
-				</li>
-				<li>
-					<div class="tabContainer">
-						<i class="fas fa-rocket"></i>
-						<a href="projects">Projects</a>
-					</div>
-				</li>
-				<li>
-					<div class="tabContainer">
-						<i class="fas fa-file-user"></i>
-						<a href="resume.pdf">Resume</a>
-					</div>
-				</li>
-				<li>
-					<div class="tabContainer">
-						<i class="fab fa-github"></i>					
-						<a href="https://github.com/jsdu">Github</a>
-					</div>
-				</li>
-				<li>
-					<div class="tabContainer">
-						<i class="fas fa-comments"></i>						
-						<a href="contact">Contact</a>
-					</div>
-				</li>
-			</ul>
-		</nav>
 	</header>
-	<section id="about">
-	<article>
-		<p>My name is Jason Du. I live in Toronto and study Math and Computer Science at The University of Waterloo. I am passionate about programming and I specialize in creating beautiful, professional apps for iOS. I program mainly in Swift but I sometimes dabble in Objective-C. When I am not programming, you can find me going on walks, playing the piano, or gaming</a>.</p>
-		<h2>How I got started</h2>
-		<img src="https://i.imgur.com/dbE0rTg.jpg" alt="portrait" id="about-image">
-		<p> I first started programming in highschool when I took a course on computer science in grade 10. However, I did not discover the joys of programming until I went to my first Hackathon. I went to Wearhacks in Montreal and had no idea what I was going to build going in. I found a team that was interested in creating an app on the Muse that alerts the driver if they are falling asleep. We turned that idea into a reality and won the best Muse hack. From then on, I was hooked. I attended several other hackathons including Wearhacks Toronto, Hack the North, MHacks, and ConUHacks. You can find my projects for these hackathons <a id="link" href="projects">here</a>. Besides attending Hackathons, I enjoy watching WWDC keynotes and building my own apps from what I have watched.</p>	
-	</article>
-	
+	<nav class="bottomTabBar">
+		<ul class="navBar">
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-home current"></i>
+					<a class="current" href="about">About</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-rocket"></i>
+					<a href="projects">Projects</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-file-user"></i>
+					<a href="resume.pdf">Resume</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fab fa-github"></i>					
+					<a href="https://github.com/jsdu">Github</a>
+				</div>
+			</li>
+			<li>
+				<div class="tabContainer">
+					<i class="fas fa-comments"></i>						
+					<a href="contact">Contact</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<section id="about" class="aboutContainer">
+		<div class="row ">
+			<div class="container firstContainer">
+
+			</div>
+			<div class="container secondContainer">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="container thirdContainer">
+
+			</div>
+			<div class="container fourthContainer">
+
+			</div>
+			<div class="container fifthContainer">
+
+			</div>
+		</div>
 	</section>
+	<script>
+		// When the user scrolls down 50px from the top of the document, resize the header's font size
+		window.onscroll = function() {scrollFunction()};
+
+		function getClockTime() {
+			var dt = new Date();
+			document.getElementById("dateTime").innerHTML = dt.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});;
+		}
+		getClockTime()
+		// Update clock every minute
+		setInterval(getClockTime, 60000);
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			document.getElementById("portfolioIcon").style.width = "30px";
+			document.getElementById("portfolioIcon").style.height = "30px";
+			document.getElementById("portfolioIcon").style.marginBottom = "auto";
+
+			document.getElementById("aboutContent").style.flexDirection = "row";
+			document.getElementById("about").style.margin = "auto";
+
+			document.getElementById("about").style.fontWeight = "600";
+			document.getElementById("about").style.fontSize = "15px";
+			document.getElementById("about").style.letterSpacing = "-0.41px";
+			document.getElementById("about").style.lineHeight = "22px";
+
+			document.getElementById("name").style.marginTop = "10px";
+		  } else {
+			document.getElementById("portfolioIcon").style.width = "63px";
+			document.getElementById("portfolioIcon").style.height = "63px";
+			document.getElementById("portfolioIcon").style.marginBottom = "0";
+
+			document.getElementById("aboutContent").style.flexDirection = "column";
+			document.getElementById("about").style.margin = "0";
+
+			document.getElementById("about").style.fontWeight = "bold";
+			document.getElementById("about").style.fontSize = "34px";
+			document.getElementById("about").style.letterSpacing = "0.37px";
+			document.getElementById("about").style.lineHeight = "41px";
+			
+			document.getElementById("name").style.marginTop = "30px";
+		  }
+		}
+	</script>
 </body>
 </html>

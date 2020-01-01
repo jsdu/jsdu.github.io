@@ -8,11 +8,18 @@
   background: rgba(249,249,249,0.94);
   box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
   padding: 8px;
+
+  top: 0; 
+  position: fixed; 
+  width: 100%; 
+  transition: 0.2s; 
+  z-index: 99;
 }
 
 .headerContent {
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 8px;
   display: flex;
   flex-direction: row;
 }
@@ -20,6 +27,7 @@
 .headerContent .aboutContent {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .headerContent .portfolioIcon {
@@ -41,16 +49,18 @@
   letter-spacing: -0.24px;
   line-height: 20px;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-.headerBar h1 {
+.headerBar .about {
   font-family: 'SF Pro Display', Arial, sans-serif;
   font-weight: bold;
   font-size: 34px;
   letter-spacing: 0.37px;
   line-height: 41px;
   margin: 0px;
+
+  padding-right: 50px;
 }
 
 .statusBar {
@@ -61,17 +71,21 @@
   font-family: 'SF Pro Display', Arial, sans-serif;
   font-weight: 500;
   font-size: 12px;
-  font-style: normal;  
 
   color: #000000;
   letter-spacing: -0.1px;
-  text-align: right;
   line-height: 14px;
 }
 
-.statusBar .statusBarContent {
+.statusBarLeftContent {
   display: flex;
   flex-direction: row;
+}
+
+.statusBarRightContent {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
 }
 
 .statusBar i {

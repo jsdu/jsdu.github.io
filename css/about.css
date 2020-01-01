@@ -1,0 +1,37 @@
+.aboutContainer {
+    margin-top: 150px;
+}
+
+.container {
+    margin: 20px;
+    padding: 8px;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.firstContainer {
+    width: 60%;
+}
+
+.secondContainer {
+    width: 40%;
+}
+
+.thirdContainer {
+    width: 30%;
+}
+
+.fourthContainer {
+    width: 40%;
+}
+
+.fifthContainer {
+    width: 30%;
+}
