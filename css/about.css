@@ -6,8 +6,10 @@
 .container {
     margin: 30px;
     padding: 8px;
-    height: 300px;
+    height: 500px;
+    border-radius: 10px;
     background-color: cadetblue;
+    box-shadow: 0 9px 12px 10px rgba(176,171,171,0.50);
 }
 
 .row {
@@ -18,7 +20,12 @@
 }
 
 .firstContainer {
+    background-color: #aee784;
     width: 60%;
+}
+
+.firstContainer video {
+    width: 500px;
 }
 
 .secondContainer {
