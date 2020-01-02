@@ -53,13 +53,6 @@
 }
 
 .headerBar .about {
-  font-family: 'SF Pro Display', Arial, sans-serif;
-  font-weight: bold;
-  font-size: 34px;
-  letter-spacing: 0.37px;
-  line-height: 41px;
-  margin: 0px;
-
   padding-right: 50px;
 }
 
@@ -165,4 +158,23 @@
 
 .navBar .current {
   color: #007AFF;
+}
+
+/* General Fonts */
+
+h1 {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 0.37px;
+  line-height: 41px;
+}
+
+h2 {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(60,60,67,0.60);
+  letter-spacing: -0.24px;
+  line-height: 20px;
 }
