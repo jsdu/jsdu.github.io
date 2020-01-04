@@ -33,7 +33,6 @@
 .headerContent .portfolioIcon {
   width: 63px;
   height: 63px;
-  overflow: hidden;
   border-radius: 50%;
 
   margin-left: auto;
@@ -178,4 +177,19 @@ h2 {
   color: rgba(60,60,67,0.60);
   letter-spacing: -0.24px;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tabContainer {
+    flex-direction: column;
+  }
+
+  .navBar a {
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
+  .navBar i {
+    font-size: 26px;
+  }
 }
