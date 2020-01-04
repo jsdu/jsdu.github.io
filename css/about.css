@@ -53,3 +53,15 @@
 .fifthContainer {
     width: 30%;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 80%;
+    }
+
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+  
