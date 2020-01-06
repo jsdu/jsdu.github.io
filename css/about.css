@@ -8,7 +8,7 @@
     padding: 20px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 0 9px 12px 10px rgba(176,171,171,0.50);
+    box-shadow: 0 9px 12px 10px rgba(176,171,171,0.2);
 }
 
 .row {
@@ -57,7 +57,7 @@
 @media only screen and (max-width: 600px) {
     .container {
       width: 80%;
-      height: 300px;
+      height: 400px;
     }
 
     .row {
