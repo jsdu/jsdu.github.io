@@ -168,9 +168,18 @@ h1 {
   font-size: 34px;
   letter-spacing: 0.37px;
   line-height: 41px;
+  margin: 0px;
 }
 
 h2 {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.37px;
+  line-height: 41px;
+}
+
+h3 {
   font-family: 'SF Pro Display', Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;

@@ -29,7 +29,18 @@
     background-size: contain;
     width: 60%;
     display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 50px;
+    display: flex;
     flex-direction: row;
+}
+
+.title h2 {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .firstContainer video {
@@ -54,10 +65,24 @@
     width: 30%;
 }
 
+@media only screen and (max-width: 1550px) {
+    .container {
+      width: 80%;
+      height: 500px;
+      max-width: 800px;
+    }
+
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .container {
       width: 80%;
       height: 400px;
+      max-width: 800px;
     }
 
     .row {
