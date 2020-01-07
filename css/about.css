@@ -27,6 +27,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
+
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -38,9 +39,14 @@
     flex-direction: row;
 }
 
-.title h2 {
-    margin-left: auto;
+.title .leftTitle {
+    margin-left: 20px;
     margin-right: auto;
+}
+
+.title .rightTitle {
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 .firstContainer video {
@@ -50,22 +56,36 @@
 }
 
 .secondContainer {
+    background-image: url(../assets/DayBg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     width: 40%;
 }
 
 .thirdContainer {
-    width: 30%;
+    background-image: url(../assets/NightBg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 40%;
+}
+
+.thirdContainer .whiteFont {
+    color: white;
 }
 
 .fourthContainer {
-    width: 40%;
+    width: 30%;
 }
 
 .fifthContainer {
     width: 30%;
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1330px) {
     .container {
       width: 80%;
       height: 500px;
@@ -78,7 +98,24 @@
     }
 }
 
+@media only screen and (max-width: 1026px) {
+    .container {
+      width: 80%;
+      height: 450px;
+      max-width: 800px;
+    }
+
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .statusBar {
+        display: none;
+    }
+    
     .container {
       width: 80%;
       height: 400px;
@@ -88,6 +125,14 @@
     .row {
         align-items: center;
         flex-direction: column;
+    }
+
+    .title .leftTitle {
+        margin-left: 0px;
+    }
+    
+    .title .rightTitle {
+        margin-right: 0px;
     }
 }
   
