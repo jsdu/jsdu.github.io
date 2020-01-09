@@ -169,6 +169,7 @@ h1 {
   letter-spacing: 0.37px;
   line-height: 41px;
   margin: 0px;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -191,12 +192,12 @@ h3 {
 p {
   /* Medium */
   font-family: 'SF Pro Display', Arial, sans-serif;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 15px;
 
   color: #000000;
   letter-spacing: -0.1px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 @media only screen and (max-width: 600px) {
