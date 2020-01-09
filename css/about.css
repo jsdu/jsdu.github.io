@@ -85,6 +85,79 @@
     width: 30%;
 }
 
+.fadeIn {
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+/* Animation from https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
+@keyframes fadein {     
+    from {
+        margin-top: 100%;
+        /* height: 300%;  */
+    }
+      
+    to {
+        margin-top: 30px;
+        /* height: 100%; */
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        margin-top: 100%;
+        /* height: 300%;  */
+    }
+      
+    to {
+        margin-top: 30px;
+        /* height: 100%; */
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        margin-top: 100%;
+        /* height: 300%;  */
+    }
+      
+    to {
+        margin-top: 30px;
+        /* height: 100%; */
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        margin-top: 100%;
+        /* height: 300%;  */
+    }
+      
+    to {
+        margin-top: 30px;
+        /* height: 100%; */
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        margin-top: 100%;
+        /* height: 300%;  */
+    }
+      
+    to {
+        margin-top: 30px;
+        /* height: 100%; */
+    }
+}
+
 @media only screen and (max-width: 1330px) {
     .container {
       width: 80%;
