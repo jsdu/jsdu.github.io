@@ -82,17 +82,14 @@
 }
 
 .fourthContainer {
-    width: 30%;
+    width: 60%;
 }
 
 .fourthContainer .projectImage {
-    width: 500px;
-    margin-top: 80px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: -30px;
     align-self: center;
-}
-
-.fifthContainer {
-    width: 30%;
 }
 
 .fadeIn {

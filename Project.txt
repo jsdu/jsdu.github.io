@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+	<link rel="alternate" type="application/rss+xml" title="The Blog of Jason Du - iPhone Developer" href="https://dujason.com/projects.html" />
+	<link rel="stylesheet" href="styles-2016-01-21.css" />
+	<link rel="stylesheet" href="simple-slideshow-styles.css">
+	<link rel="stylesheet" href="highlight.css" />
+
+	<title>Jason Du&mdash; Projects</title>
+</head>
+<body>
+
+	<div id="wrapper">
+		<canvas id="demo-canvas"></canvas>
+		<header>
+			<hgroup>
+				<h1>Jason Du</h1>
+				<h2>iOS developer, Snowboarder, Gamer</h2>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="projects">Projects</a></li>
+          <li><a href="resume.pdf">Resume</a></li>
+          <li><a href="https://github.com/jsdu">Github</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="apps">
+
+		<p>
+    The majority of my work has been in Swift. I am also familiar with Objective-C and Java. Here is a list of my personal projects as well as projects I have done in Hackathons.
+    </p>
+
+    <article>
+      <header id="app-nutrily">
+        <h3>Nutrily</h3>
+        <p>Smart Nutrition tracker with a personality</p>
+      </header>
+      <div id="parent">
+        <div class="bss-slides num4" tabindex="4" id="slide">
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily1" width=350 height=546 />
+            </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily2" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily3" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily4" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily5" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily6" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily7" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Nutrily8" width=350 height=546 />
+          </figure>
+        </div> 
+        <div id="wide">
+          <p>Nutrily was created at CalHacks and won <strong>IBM's API prize out of 53 teams</strong>. Nutrily allows users (primarily children or parents of children) to track what they eat each meal, whether through scanning a barcode or taking a picture of their meal. The app keeps track of how much of each food group (fruits, protein, dairy, etc.) the user has eaten that day, and a dynamic message box displays suggestions according to these statistics, scrolling through several generated messages each time. Users can also choose "characters," which affect the theme and tone of these messages. By eating healthy, users gain points and advance levels. Nutrily essentially turns what’s often seen as the chore of healthy eating and tracking into a fun, interactive game. </p>
+        </div>
+      </div>
+      <a href="https://devpost.com/software/nutrily" class="devpost">Devpost</a>
+    </article>
+
+    <article>
+      <header id="app-feat">
+        <h3>Feat the family</h3>
+        <p>Incentivized healthy living for kids</p>
+      </header>
+      <div id="parent">
+        <div class="bss-slides num4" tabindex="4" id="slide">
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat1" width=350 height=546 />
+            </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat2" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat3" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat4" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat5" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat6" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat7" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Feat8" width=350 height=546 />
+          </figure>
+        </div> 
+        <div id="wide">
+          <p>Feat the family is an iOS app created at Foodhackathon in 24 hours. The problem that we were trying to solve is how to teach parents and children healthy living. We solved this by giving kids tasks to do to earn points. From the points that they have gathered, they are able to redeem them for cool prizes. One of the tasks kids are asked to complete is to log foods that they have eaten. We used Clarifai's visual recognition API in order to seamlessly identify and log the food. I accessed the USDA national nutrient database and presented the nutritional information in a fun way so kids understand what they are eating. By analyzing the past foods that kids have eaten, we can provide tasks such as create a meal with custom recipes with Spoonacular's API. </p>
+        </div>
+      </div>
+      <a href="https://github.com/jsdu/Feats-for-family" class="github">Github</a>
+    </article>
+
+    <article>
+    <header id="app-eats">
+      <h3>Eats</h3>
+      <p>Revolutionizing the way dining should be</p>
+    </header>
+    <div id="parent">
+      <div class="bss-slides num4" tabindex="4" id="slide">
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats1" width=350 height=546 />
+            </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats2" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats3" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats4" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats5" width=350 height=546 />
+          </figure>
+          <figure>
+              <img src="https://s3.amazonaws.com/jasondubucket/Eats6" width=350 height=546 />
+          </figure>
+      </div> 
+      <div id="wide">
+        <p>Eats is an iOS app that I developed in 24 hours at Money 20/20.  Eats creates quality interaction between diners and servers, significantly increasing customer satisfaction. This drives growth of valuable repeat visits. Eats optimizes ordering by helping diners know what’s great. It showcases menu-item photos to reduce ordering uncertainty risk, displays pertinent health-related info and ensures orders get transmitted correctly to the kitchen. The Eats app alerts the server whenever the diner needs attention, helping eliminate stress and frustration with service issues. Leveraging Ingenico mPOS card readers, EATS streamlines check-out experience with more accurate and timely settlement, further increasing diner satisfaction. </p>
+      </div>
+    </div>
+    <a href="http://www.hackathon.io/eats1" class="hackathon">Hackathon.io</a>
+    <a href="https://github.com/jsdu/Eats" class="github">Github</a>
+  </article>
+
+	<article>
+		<header id="app-pic4Change">
+			<h3>Picture for a Change</h3>
+			<p>Add stickers on pictures for a cause</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num4" tabindex="4" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/pic4Change1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change6" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change7" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change8" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change9" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/pic4Change10" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Picture for a change is an iOS app that I soely developed from the ground up for NHacks. My app won <strong>Best use of Clarifai's API</strong> and I received a DSLR camera and skateboard. NHacks' theme of sharing is extremely important to me and I was inspired by one of the biggest Apps, Snapchat which allows users to add "stickers". I was also inspired by Facebook and their filters during Gay Pride and Paris Attacks. Unfortunately, there was no good way to pick and choose which filters you wanted to share, which is why I developed Picture for a Change. Picture for a Change allows users to take and share pictures and add a filter or sticker for a cause that they support. I have a wide selection of stickers for the user to choose from including charities, politics, and world wide events. I used Clarifai's API to analyze the picture to display relevant stickers related to the picture. Pictures of the people using this app can be found <a id="link" href="https://twitter.com/picture4AChange">here</a>. </p>
+			</div>
+		</div>
+		<a href="http://devpost.com/software/picture-for-a-change" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/Picture-for-a-Change" class="github">Github</a>
+	</article>
+
+  <article>
+		<header id="app-sepr">
+			<h3>Sepr - Real Estate Prices</h3>
+			<p>Find sold prices of homes in Ontario</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num1" tabindex="1" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/Sepr1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Sepr2" width=350 height=546 />
+   				</figure>
+   				<figure>
+   					<img src="https://s3.amazonaws.com/jasondubucket/Sepr3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Sepr4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Sepr5" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Sepr is an iOS app that I soely developed and published to the App Store. Sepr displays home information for homes in Ontario in a beautiful layout. It currently has over 2000 downloads in only two months of its release. This was one of my biggest projects and I learnt a lot of fundamental concepts in swift through building this App. I used Google Maps API to search for a location. I worked with core data to save the location of homes. I also designed the UI/UX of the app so that the app looks and feels amazing. The challenge I faced while creating this app was that there were too many markers to display. I researched and tried many different clustering APIs and found that <a id="link" href="https://github.com/ribl/FBAnnotationClusteringSwift">FBAnnotationClusteringSwift</a> worked best. I also implemented a filter to search for homes with certain attributes. </p>
+			</div>
+		</div>
+		<a href="https://itunes.apple.com/us/app/sepr-real-estate-prices/id1080434412?ls=1&amp;mt=8" class="appStore">App Store</a>
+	</article>
+
+	<article>
+		<header id="app-mazu">
+			<h3>Mazu</h3>
+			<p>Visual recognition of fish species</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num3" tabindex="3" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/Mazu1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu6" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu7" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu8" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu9" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/Mazu10" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Mazu is an iOS app that I made during Fishackathon Toronto 2016 and received <strong>second place</strong> overall. It is an iOS app that recognizes fish species using IBM Bluemix visual recognition. The user is able to see all their catches in the form of a graph. The user is able to sync up all the data that was collected and push it to our Firebase database. We trained the visual recognition API using 50 positive pictures of a species and 50 negative pictures of visually similar fish in order to create an accurate classifier. Mazu is able to detect invasive species and sends a warning to inform users to not release it. The challenge we struggled with was to integrate the visual recognition custom classifiers with my iOS app. I solved this by using Alamofire and made a post request to their Api.</p>
+			</div>
+		</div>
+		<a href="http://devpost.com/software/mazu" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/mazu" class="github">Github</a>
+
+	</article>
+
+	<article>
+		<header id="app-weatherEats">
+			<h3>weatherEats</h3>
+			<p>Discover top rated restaurants based on past weather history</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num3" tabindex="3" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/weatherEats1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats6" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats7" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/weatherEats8" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>WeatherEats is an iOS app that I made during Yackathon 2016 hosted by Yelp. It is an iOS app that displays all the top-rated restaurants in the area based on a weather filter chosen by users. I used a python script to obtain past weather history for every day from 2005-2016 and found the average weather (Clear ,Cloudy ,Rainy, Snowy) everyday. I then extracted all the 4 and 5 star reviews, and mapped the reviews to the weather history. I created a new data set by mapping every business with the weather that showed up the most in the reviews and visualized it in the app. I used custom annotations and apple's built in MkMapView to display the data. The challenge I faced was that it was very difficult to merge the weather data with yelp's data set because the filesize was way to big. We solved this by reading in the file line by line in a python script.</p>
+			</div>
+		</div>
+		<a href="http://devpost.com/software/weathereats" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/weatherEats" class="github">Github</a>
+
+	</article>
+
+	<article>
+		<header id="app-tictactoe">
+			<h3>Ultimate TicTacToe Ten</h3>
+			<p>Play the ultimate game of Tic-Tac-Toe</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num3" tabindex="3" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/tictactoe1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/tictactoe2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/tictactoe3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/tictactoe4" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Ultimate TicTacToe Ten is an iOS app that I made when I first started learning Swift. It is also my first App that I submited to the App Store and it has received over 1000 downloads to date. I was inspired to make this game after reading this <a id="link" href="http://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/">post</a>. Ultimate Tictactoe is a game of Tictactoe where you have to win three games of Tictactoe in a row. You can only play in the big square corresponding to where your opponent played in the small squre. When you are sent to a field that is already decided, you can choose anywhere to play. I designed the layout in Photoshop and implemented autolayout so that the UI looks nice on all platforms. I used a collection of buttons for the board to determine where the user clicks. I implemented the logic in the game by enabling and disabling the buttons to specify where the user can click. </p>
+			</div>
+		</div>
+		<a href="https://itunes.apple.com/us/app/ultimate-tictactoe-ten/id959453033?ls=1&amp;mt=8" class="appStore">App Store</a>
+		<a href="https://github.com/jsdu/ultimateTicTacToe" class="github">Github</a>
+
+	</article>
+
+		<article>
+		<header id="app-personalityTest">
+			<h3>The Personality Test - 16 Emotional Types</h3>
+			<p>Find out your personality Type</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num2" tabindex="2" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/16Personality1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/16Personality2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/16Personality3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/16Personality4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/16Personality5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/16Personality6" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>The personality test is an iOS quiz app that determines your personality based on the multiple choice questions. I created this app to learn about animation and asthetics. I animated the background of the app to switch between two gradients. I also animated the circular progress label so that it rotates depending on how far the user progresses in the quiz. I finally animated the questions to fly in when the user is going to the next page. I had difficulty with creating questions for the quiz and how to rank the user's selection to figure out what personality type they are. I solved this by doing a lot of research regarding personality types and I created a ranking system based on the user's selection.</p>
+			</div>
+		</div>
+		<a href="https://itunes.apple.com/us/app/personality-test-16-emotional/id1082854433?ls=1&amp;mt=8" class="appStore">App Store</a>
+	</article>
+
+	</section>
+
+	<section id = "hacks">
+		<article>
+		<header>
+			<h3>Police Count</h3>
+			<p>Data about Police Killings</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num4" tabindex="4" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/policeCount1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount6" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/policeCount7" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>Police Count is an iOS project that I worked on in my free time. Police Count keeps track of police killings in the States. 
+				I created this app because I keep hearing about shootings going on in the states and I want others to realize what is happening.
+				I used The Guardian's data from their project <a id="link" href="http://www.theguardian.com/us-news/series/counted-us-police-killings">The Counted</a> and a third party <a id="link" href="http://thecountedapi.com">API</a> to fetch the data. I learnt how to create and animate beautiful graphs while making this app. The challenge I faced was that I wanted to plot all the killings on a map. The data provided is only in addresses and not coordinates. I attempted to geocode the addresses but Apple only allows one geocoding per minute. I realize that the only way it will work is if I geocode the addresses myself beforehand and push it onto a database. I have since moved onto another project so anyone is free to take on the project. </p>
+			</div>
+		</div>
+		<a href="https://github.com/jsdu/policeCount" class="github">Github</a>
+
+	</article>
+
+	<article>
+		<header>
+			<h3>One Word</h3>
+			<p>Discover new pictures from one word</p>
+		</header>
+		<div id="parent">
+			<div class="bss-slides num4" tabindex="4" id="slide">
+   				<figure>
+      				<img src="https://s3.amazonaws.com/jasondubucket/oneWord1" width=350 height=546 />
+   					</figure>
+    			<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/oneWord2" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/oneWord3" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/oneWord4" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/oneWord5" width=350 height=546 />
+   				</figure>
+   				<figure>
+        			<img src="https://s3.amazonaws.com/jasondubucket/oneWord6" width=350 height=546 />
+   				</figure>
+			</div> 
+			<div id="wide">
+				<p>One Word is an iOS app made during ConUHacks 2016. I led a team of three to create and build a fully functioning social media app for photographers. The idea of this app is to send one word to everyone everyday. They must take a picture related to the word and users can vote on the best picture. We believe that this will help connect photographers and bring out the creative side to everyone. Users are able to see a collection of the best pictures for each word taken on the homepage. We used Parse for registration and secure logins. We also used Clarifai's Api to score the picture based on relevancy. Clarifai's Api sends us tags related the picture which we match with the word of the day. While building this app, I learnt how to use UICollectionViews to display the images in a grid.</p>
+			</div>
+		</div>
+		<a href="http://devpost.com/software/oneword" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/oneword-master" class="github">Github</a>
+
+	</article>
+
+	<article>
+		<header>
+			<h3>Safe.ly</h3>
+			<p>Safe Driving, No Sleepy Driving</p>
+		</header>
+		<p>Safe.ly is an Android app made during Wearhacks Montreal 2015. Safe.ly connects to a Muse headset and is used by a drive to analyzes their brain waves. Safe.ly sends notifications whenever the user starts to fall asleep. We used <a id="link" href="http://developer.choosemuse.com/android">Muse's</a> API to analyze head movement and brain waves that was detected from the Muse headband. We then send notifications at the optimal time to alert the driver. We placed <strong>top 8 overall</strong> and received the <strong>best hack on the Muse</strong>. As a result we received a free Muse Headset to hack on. BCI Montreal wrote an article about this hackathon where our app was featured which you can find <a id="link" href="http://bcimontreal.org/bci-hackathon/">here</a>.</p>
+		<a href="http://www.hackathon.io/safe-ly" class="hackathon">Hackathon.io</a>
+		<a href="https://github.com/jsdu/Safe.ly" class="github">Github</a>
+	</article>
+
+	<article>
+		<header>
+			<h3>WeLink</h3>
+			<p>Social media app for meeting strangers</p>
+		</header>
+		<p>WeLink is an iOS App made during Hack the North 2015. I led a team of four to design and create this app in 48 hours. The purpose of this app is to connect people with others around them. Users provide their interest and hobbies when they sign up, creating an online public profile that other WeLink users will see. Users are able to message and send selfies to each other and will gain points based on how "happy" they were. I used Cocoa Pods to integrate <a id="link" href="https://developers.facebook.com/products/login">Facebook's</a> API for secure logins. I used <a id="link" href="https://indico.io">Indico's</a> REST API to analyze the emotions of the selfies taken. </p>
+		<a href="http://devpost.com/software/welink" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/welink" class="github">Github</a>
+	</article>
+
+	<article>
+		<header>
+			<h3>Latex My Notes</h3>
+			<p>Turn pictures into latex</p>
+		</header>
+		<p>Latex My Notes is an iOS app made during MHacks 2015. The idea for this app was to be able to transform written notes into Latex PDFs. The difficulties that we faced was that there was no OCR Api that was capable to lift text off of hand written notes. The best Api that we found and implemented is <a id="link" href="https://github.com/tesseract-ocr/tesseract">Tesseract</a>. I implemented the camera functionality of the app, as well as sending the pictures taken to our server. Our server was hosted on <a id="link" href="https://www.firebase.com">Firebase</a> where we lifted the text off the picture and processed them into Latex PDF documents.</p>
+		<a href="http://devpost.com/software/latex-my-notes" class="devpost">Devpost</a>
+		<a href="https://github.com/jsdu/LatexMyNotes" class="github">Github</a>
+	</article>
+
+	<article>
+		<header>
+			<h3>Loblawfy</h3>
+			<p>Replace all pictures with Loblaw-related pictures</p>
+		</header>
+		<p>Loblawfy is a Chrome extension made during Loblaw's hackathon. I had no prior experience with Javascript so building this extension helped me understand Javascript. Loblawfy replaces all images with pictures related to Loblaws. It also replaces key words such as 'Walmart', or 'Sobeys' with 'Loblaws'. It also changes any link that points to Walmart, with a link that goes to the homepage of Loblaws. Finally, a beautiful animated background of Loblaws runs in the background. This chrome extension is for the truly dedicated Loblaws employee, who wishes to show their love and dedication of Loblaws in their browser. </p>
+		<a href="https://github.com/jsdu/loblawfy" class="github">Github</a>
+	</article>
+	
+	</section>
+	</div>
+
+
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+
+	<script src="better-simple-slideshow.min.js"></script>
+	<script>
+	var opts = {
+    	auto : false,
+    	fullScreen : false,
+    	swipe : false
+	};
+	makeBSS('.num1', opts);
+	makeBSS('.num2', opts);
+	makeBSS('.num3', opts);
+	makeBSS('.num4', opts);
+	</script>
+
+	</body>
+</html>
