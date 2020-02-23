@@ -201,6 +201,10 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  .statusBar {
+    display: none;
+  }
+
   .tabContainer {
     flex-direction: column;
   }
