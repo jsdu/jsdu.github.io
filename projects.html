@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link rel="alternate" type="application/rss+xml" title="Jason Du's Portfolio" href="https://dujason.com/" />
 	<link rel="stylesheet" href="css/general.css" />
+	<link rel="stylesheet" href="css/project.css" />
 	<link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.css">
 
 	<!-- favIcon -->
@@ -48,7 +49,7 @@
 		<div class="headerContent">
 			<div id="aboutContent" class="aboutContent">
 				<h3 id="name">JASON DU</h3>
-				<h1 id="about" class="about">Project</h1>
+				<h1 id="about" class="about">Projects</h1>
 			</div>
 			<img id="portfolioIcon" class="portfolioIcon" src="assets/Icon.jpg" alt="Icon Image">
 		</div>
@@ -88,7 +89,15 @@
 		</ul>
 	</nav>
 	<section>
-		
+		<div class="filterContainer">
+			<h3>Filter</h3>
+			<div id="filterSelectionContainer" class="filterSelectionContainer">
+				<button class="btn active" onclick="filterSelection('all')">All</button>
+				  <button class="btn" onclick="filterSelection('ios')">iOS</button>
+				  <button class="btn" onclick="filterSelection('blockchain')">Blockchain</button>
+				  <button class="btn" onclick="filterSelection('hackathon')">Hackathon</button>
+			</div>
+		</div>
 	</section>
 	<script>
 		// When the user scrolls down 50px from the top of the document, resize the header's font size
@@ -101,6 +110,55 @@
 		getClockTime()
 		// Update clock every minute
 		setInterval(getClockTime, 60000);
+
+		filterSelection("all")
+		
+		function filterSelection(c) {
+  			var x, i;
+  			x = document.getElementsByClassName("filterDiv");
+  			if (c == "all") c = "";
+  			// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  			for (i = 0; i < x.length; i++) {
+    			w3RemoveClass(x[i], "show");
+    			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  			}
+		}
+
+		// Show filtered elements
+		function w3AddClass(element, name) {
+  			var i, arr1, arr2;
+  			arr1 = element.className.split(" ");
+  			arr2 = name.split(" ");
+  			for (i = 0; i < arr2.length; i++) {
+    			if (arr1.indexOf(arr2[i]) == -1) {
+      				element.className += " " + arr2[i];
+    			}
+  			}
+		}
+
+		// Hide elements that are not selected
+		function w3RemoveClass(element, name) {
+  			var i, arr1, arr2;
+  			arr1 = element.className.split(" ");
+  			arr2 = name.split(" ");
+  			for (i = 0; i < arr2.length; i++) {
+    			while (arr1.indexOf(arr2[i]) > -1) {
+      				arr1.splice(arr1.indexOf(arr2[i]), 1);
+    			}
+  			}
+  			element.className = arr1.join(" ");
+		}
+
+		// Add active class to the current control button (highlight it)
+		var btnContainer = document.getElementById("filterSelectionContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+			for (var i = 0; i < btns.length; i++) {
+  				btns[i].addEventListener("click", function() {
+    			var current = document.getElementsByClassName("active");
+    			current[0].className = current[0].className.replace(" active", "");
+    			this.className += " active";
+  			});
+		}
 
 		function scrollFunction() {
 		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {

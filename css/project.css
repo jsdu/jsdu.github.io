@@ -1,0 +1,60 @@
+.filterContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    height: 30px;
+}
+
+.filterContainer h3 {
+    color: black;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.filterSelectionContainer {
+    display: flex;
+    border-radius: 7px;
+    padding: 3px;
+    background: #eeebf0;
+    overflow: hidden;
+}
+  
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+  
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+  
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    background-color: #eeebf0;
+    cursor: pointer;
+
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+
+    width: 200px;
+}
+  
+/* Add a dark background to the active button */
+.btn.active {
+    background-color: white;
+    border-radius: 7px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
