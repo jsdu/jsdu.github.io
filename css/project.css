@@ -24,8 +24,6 @@
 .filterDiv {
     display: flex;
     float: left;
-    background-color: #2196F3;
-    color: #ffffff;
     width: 100%;
     height: 800px;
     text-align: center;
@@ -90,7 +88,7 @@
     width: 170px;
     height: 170px;
 
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -110,6 +108,11 @@
     padding-right: 40px;
     display: flex;
     flex-direction: column;
+}
+
+.statObject h2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .trophy {
@@ -150,4 +153,20 @@
     border-radius: 7px;
     z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectBody {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.projectBody h3 {
+    color: #333;
+    line-height: 1.47059;
+    font-size: 17.5px;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-style: normal;
+
+    text-align: left;
 }
