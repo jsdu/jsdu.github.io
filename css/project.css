@@ -111,7 +111,8 @@
 }
 
 .statObject h2 {
-    color: rgba(0, 0, 0, 0.5);
+    color: #626262;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -155,12 +156,21 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.projectBody {
-    padding-left: 100px;
+.projectBodyLeft {
+    display: flex;
+    padding-left: 0px;
     padding-right: 100px;
+    height: 550px;
 }
 
-.projectBody h3 {
+.projectBodyRight {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 0px;
+    height: 550px;
+}
+
+.projectBodyRight h3 {
     color: #333;
     line-height: 1.47059;
     font-size: 17.5px;
@@ -169,4 +179,25 @@
     font-style: normal;
 
     text-align: left;
+}
+
+.projectBodyLeft h3 {
+    color: #333;
+    line-height: 1.47059;
+    font-size: 17.5px;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-style: normal;
+
+    text-align: left;
+}
+
+.kb-bg {
+    width: 750px;
+    object-fit: contain;
+}
+
+.stakeaway-bg {
+    width: 750px;
+    object-fit: fill;
 }
