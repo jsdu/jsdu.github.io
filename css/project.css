@@ -201,3 +201,7 @@
     width: 750px;
     object-fit: fill;
 }
+
+.marginBottom {
+    margin-bottom: 100px;
+}
