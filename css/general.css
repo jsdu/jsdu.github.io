@@ -192,12 +192,12 @@ h3 {
 p {
   /* Medium */
   font-family: 'SF Pro Display', Arial, sans-serif;
+  line-height: 1.47059;
+  font-size: 17.5px;
   font-weight: normal;
-  font-size: 15px;
-
-  color: #000000;
-  letter-spacing: -0.1px;
-  line-height: 25px;
+  letter-spacing: 0;
+  font-style: normal;
+  color: #333;
 }
 
 @media only screen and (max-width: 600px) {
